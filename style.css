@@ -1,0 +1,53 @@
+#label
+{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+#confidence
+{
+    color: blue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+
+body{
+    background-image: url("background.jpg");
+}
+
+h1{
+    background-color: blueviolet;
+    color: beige;
+    padding-left: 30%;
+}
+
+#show_sketch
+{
+    margin-left: 30%;
+    float : right;
+}
+
+canvas
+{
+    border: 5px white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 45px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from {box-shadow : 1px 1px 36px grey;}
+    to{box-shadow: 1px 1px 36px white;}
+}
+
+p{
+    padding: 10px;
+    font-size: 20px;
+    color: brown;
+}
